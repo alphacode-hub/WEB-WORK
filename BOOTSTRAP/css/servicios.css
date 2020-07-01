@@ -1,0 +1,58 @@
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) {  }
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) { }
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) {  }
+
+/** Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) {  }
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    background-color: blue;
+}
+.col {
+    border: 1px solid red;
+}
+.fondo {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    background: url('/static/887.jpg') no-repeat fixed center;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: 1;
+}
+
+.sombra {
+    margin-top: 20px;
+    color: white;
+    background-color: hsla(236, 100%, 55%, 0.13);
+    z-index: 2;
+    box-shadow: 4px 3px 20px 1px hsla(0, 0%, 0%, 0.25);
+}
+
+.tools {
+    text-align: center;
+    margin: auto;
+
+}
+
+object {
+    width: 50%;
+    transition: transform 2s, width 1s;
+}
+object:hover{
+    width: 60%;
+    transform: rotate(360deg);
+}
+

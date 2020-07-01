@@ -1,0 +1,66 @@
+@media (min-width: 320px) { 
+    object {
+        width: 20%;
+    }
+ }
+
+@media (min-width: 576px) { 
+    object {
+        width: 10%;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+    object {
+        width: 10%;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    object {
+        width: 10%;
+    }
+ }
+
+
+@media (min-width: 1200px) {
+    object {
+        width: 10%;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    object {
+        width: 20%;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    object {
+        width: 20%;
+    }
+  }
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.logo{
+    transition: transform 1s, width 1s;
+}
+.logo:hover {
+    transform: rotate(360deg);
+}
+.marco {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.icon {
+    width: 40%;
+}
